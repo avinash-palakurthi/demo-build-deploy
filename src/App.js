@@ -2,17 +2,33 @@ import "./App.css";
 import Counter from "./components/Counter";
 import Greet from "./components/Greet";
 import Lists from "./components/Lists";
+import Topics from "./components/Topics";
+
+let description = (
+  <>
+    <p className="description">
+      <strong> React: </strong>it's a library it is built for changing the UI
+      Efficiently
+    </p>
+    <p className="description">
+      <strong>ReactDOM:</strong> is specifically for Browser , so it takes
+      instructions from react and do the required changes in the UI
+    </p>
+  </>
+);
 
 function App({ countryName }) {
   return (
     <>
       <div className="app">
-        <h2 className="topic">Components,Props</h2>
+        <Topics topicName={"Components & Props"} />
         <h1>Which {countryName} You Are Going To </h1>
         <Greet countryName={"Germany"} />
-        <h2 className="topic">State,EventHandling</h2>
+        <div className="about-topics">{description}</div>
+        <Topics topicName={"State & EventHandling"} />
         <Counter />
         <Lists />
+        <Topics topicName={"Validation, Routing & Fetching "} />
       </div>
     </>
   );

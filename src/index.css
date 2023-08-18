@@ -18,10 +18,21 @@ body {
 }
 
 .topic {
-  background-color: rgb(245, 205, 123);
+  background-color: rgb(254, 97, 49);
   font-weight: 200;
   margin-top: 10px;
   text-align: center;
+}
+
+.about-topics {
+  background-color: rgb(95, 95, 176);
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.description {
+  font-size: 1.6rem;
+  color: whitesmoke;
 }
 
 .title {
