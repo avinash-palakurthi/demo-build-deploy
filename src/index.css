@@ -5,7 +5,8 @@
 }
 
 body {
-  background: #76a6ef;
+  width: 75%;
+  margin-left: 12.5%;
 }
 .app {
   text-align: center;
@@ -86,5 +87,75 @@ body {
   color: blanchedalmond;
   font-size: 1.7rem;
   font-weight: 300;
+  list-style: none;
+}
+
+/* todo-App */
+.input_container {
+  margin: 10px;
+}
+
+.input_container input {
+  font-size: 2rem;
+  border: black 1px solid;
+}
+.input_container button {
+  font-size: 2rem;
+  margin: 10px;
+  width: 50px;
+  font-weight: 300;
+}
+
+.tasks {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+
+/* todolist */
+.container {
+  background-color: rgb(152, 100, 200);
+  color: white;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.text-area {
+  width: 50%;
+  height: 3rem;
+  font-size: 1.4rem;
+  border-style: none;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  width: 6rem;
+  height: 3.1rem;
+  margin-left: 12px;
+  background: rgb(73, 61, 238);
+  color: whitesmoke;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.items-list {
+  background-color: rgb(80, 182, 255);
+  color: black;
+  margin: 15px;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items-list h2 {
+}
+
+/* thinking In React */
+
+.list-style {
   list-style: none;
 }

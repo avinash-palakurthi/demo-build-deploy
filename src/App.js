@@ -3,6 +3,9 @@ import Counter from "./components/Counter";
 import Greet from "./components/Greet";
 import Lists from "./components/Lists";
 import Topics from "./components/Topics";
+import PlanningTheDay from "./components/thinkingInReact/PlanningTheDay";
+import Todo from "./components/todoApp/Todo";
+// import TodoList from "./components/todoList/TodoList";
 
 let description = (
   <>
@@ -29,6 +32,8 @@ function App({ countryName }) {
         <Counter />
         <Lists />
         <Topics topicName={"Validation, Routing & Fetching "} />
+        <Todo />
+        <PlanningTheDay />
       </div>
     </>
   );
